@@ -1,0 +1,174 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-size:20px;
+}
+
+.container{
+  min-height:100vh;
+  display: flex;
+  flex-direction:column ;
+  
+}
+
+
+.header{
+  width:100%;
+  min-height:40px;
+  background-color:#292929;
+  display:flex;
+  flex-wrap:wrap;
+   justify-content: space-between;
+  align-items:center;
+  padding:30px;
+
+  gap:8px 15px;
+}
+
+.logo{
+  width:180px;
+}
+
+.headerBtnGroup{
+  display: flex;
+  gap: 15px;
+}
+.buttonHeader{
+  font-size: 16px;
+  padding: 6px;
+ background-color: transparent;
+ border:2px solid transparent;
+ color: white;
+ cursor: pointer;
+ transition:0.4s;
+ 
+}
+
+.buttonHeader:hover{
+  border-bottom:
+  2px solid black;
+}
+
+.sectionTitle{
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+.sectionDescription{
+  text-align: center;
+  color: #383838;
+}
+
+.gridContainer{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:"main-content container2";
+  padding: 4px;
+  
+  }
+
+
+
+.footer{
+  width:100%;
+  min-height:40px;
+  background-color:#292929;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  padding:30px;
+  gap:15px;
+}
+
+.logo-footer{
+  width:180px;
+  
+  }
+.footerAncho{
+  color:white;
+  text-decoration:none;
+}
+.container2{
+  background-color: #383838;
+  color:white;
+  padding: 16px;
+  flex-wrap: wrap;
+  display:flex;
+  width: auto;
+  gap:10px;
+  margin:0 15px;
+  flex-direction: column;
+  align-items: center;
+grid-area: container2;
+
+ 
+}
+
+
+
+.main-content{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:7px;
+  grid-area: main-content;
+}
+.categoryCard{
+  width: 280px;
+  height: 380px;
+  border: 2px solid transparent;
+  border-radius:10px;
+  transition:0.5s;
+  cursor:pointer;
+}
+.sidebarCard{
+  width:75%;
+  border: 1px solid transparent;
+  border-radius:10px;
+  transition:0.5s;
+  cursor:pointer;
+}
+.container2aCardImg{
+  width:100%;
+  border-radius: 10px;
+}
+
+
+.sidebarCard:hover{
+border-color:gainsboro;
+}
+.categoryCard:hover{
+  border-color:black;
+}
+  
+
+
+.container2CardTitle{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+  padding:10px ;
+}
+
+   .mainCategoryCardTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+   }
+  
+
+
+
+.mainCategoryCardDescription{
+  padding: 7px;
+}
+
+
+
+.mainCardImg{
+  width:100%;
+  height:180px;
+  border-radius: 10px;
+}
+
