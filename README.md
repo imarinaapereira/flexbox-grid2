@@ -6,7 +6,7 @@
     
    Projeto construido com o curso Hotmart club
 
-   [Acesse agora](https://imarinaapereira.github.io/flexbox-grid) 
+   [Acesse agora](https://imarinaapereira.github.io/flexbox-grid/) 
 
    ## Tecnologias
    
