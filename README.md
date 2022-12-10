@@ -1,4 +1,4 @@
-# flexbox-grid2
+# flexbox-grid
 
     ![preview](./.github/preview.png)
     
